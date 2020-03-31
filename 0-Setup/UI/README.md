@@ -1,0 +1,6 @@
+![Azure Ressources](./az_portal_1.png)
+![Azure Ressources](./az_portal_2.png)
+![Azure Ressources](./az_portal_3.png)
+![Azure Ressources](./az_portal_4.png)
+![Azure Ressources](./az_portal_5.png)
+![Azure Ressources](./az_portal_6.png)
