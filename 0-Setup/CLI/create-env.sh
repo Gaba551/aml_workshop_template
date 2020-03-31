@@ -1,8 +1,8 @@
 #!/bin/bash
 
-export PREFIX=contosoml$RANDOM
+export PREFIX=amlwstemp$RANDOM
 export RG_NAME=${PREFIX}_RG
-export LOCATION=northeurope
+export LOCATION=westeurope
 
 export STORAGE_ACCOUNT_NAME=${PREFIX}
 export ACR_NAME=${PREFIX}
