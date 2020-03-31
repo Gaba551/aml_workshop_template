@@ -2,7 +2,7 @@
 Bash Script for Azure ML Workspace Setup
 
 ## Execute in Azure Cloud Shell
-![Azure Cloud Shell](./0_Setup/CLI/AzureCloudShell.png)
+![Azure Cloud Shell](./0-Setting-up/CLI/AzureCloudShell.png)
 
 ## Execute the following command:
 Clone Git Repository
