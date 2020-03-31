@@ -21,7 +21,7 @@ $ . create-env.sh
 ``` 
 
 ## The following Ressources are going to be deployed
-![Azure Ressources](./DeployedRessources.png)
+![Azure Ressources](./az_portal_4.png)
 
 * Azure Container Registry
 * Azure Key Vault
