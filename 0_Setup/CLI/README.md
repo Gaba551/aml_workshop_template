@@ -2,7 +2,7 @@
 Bash Script for Azure ML Workspace Setup
 
 ## Execute in Azure Cloud Shell
-![Azure Cloud Shell](./0-Setting-up/CLI/AzureCloudShell.png)
+![Azure Cloud Shell](./0_Setup/CLI/AzureCloudShell.png)
 
 ## Execute the following command:
 Clone Git Repository
@@ -18,7 +18,7 @@ Execute Bash Script
 $ . create-env.sh
 ``` 
 ## The following Ressources are going to be deployed
-![Azure Ressources](./0-Setting-up/CLI/DeployedRessources.PNG)
+![Azure Ressources](./0_Setup/CLI/DeployedRessources.png)
 
 * Azure Container Registry
 * Azure Key Vault
