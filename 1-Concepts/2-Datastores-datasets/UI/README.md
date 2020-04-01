@@ -14,21 +14,30 @@ Datasets enable:
 
 ## Uploading a Dataset to AzureML studio
 
-1. Download the IBM Attrition dataset by clicking on this link: https://raw.githubusercontent.com/danielsc/azureml-workshop-2019/master/data/IBM-Employee-Attrition.csv and saving the file to disk.
+1. Here we are using German credit dataset: https://raw.githubusercontent.com/mozamani/aml_workshop_template/master/Data/german_credit_data.csv
 
-1. Navigate to the left pane of your workspace. Select Datasets under the Assets section. 
+2. Navigate to the left pane of your workspace. Select Datasets under the Assets section
+
 ![](datasets.png)
 
-Click on 'Create dataset' and choose 'From local files'. Name the dataset '**IBM-Employee-Attrition**' and then click 'Next'. Make sure to leave the dataset type as Tabular.
-![](from_local_files.png)
+Click on 'Create dataset' and choose 'From web files'. Copy/Paste the above URL in the Web URL box, name the dataset '**german_credit**' and then click 'Next'. Make sure to leave the dataset type as Tabular.
 
-1. Click 'Browse', choose the file you had downloaded, and click 'Next' to create the dataset in the workspace's default Blob storage.
-![](upload.png)
+![](from_web_files.png)
 
-1. Click 'Next' through the following "Settings and preview" and "Schema" sections to verify that everything looks correct.
 
-1. Finally, in the "Confirm Details" section, select "Profile this dataset after creation" and specify the 'cpu-cluster' that you previously created as the compute to use for profiling.
-![](create_dataset.png)
+3. From 'Column headers' drop-down select 'Use headers from the first file'
+
+![](headers.png)
+
+4. Click 'Next' through the following "Settings and preview" and "Schema" sections to verify that everything looks correct.
+
+![](schema.png)
+
+5. Finally, in the "Confirm Details" section, select "Profile this dataset after creation" and specify the 'cpu-cluster' that you previously created as the compute to use for profiling
+
+![](confirm.png)
+
+
 
 ## Explore the dataset
 
