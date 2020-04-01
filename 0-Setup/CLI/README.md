@@ -20,12 +20,12 @@ Execute Bash Script
 $ . create-env.sh
 ``` 
 
-## The following Ressources are going to be deployed
+## The following ressources are going to be deployed
 ![Azure Ressources](./az_portal_4.png)
 
-* Azure Container Registry
 * Azure Key Vault
 * Azure Machine Learning Workspace
 * Azure Storage Account
 * Azure Application Insights
+* Azure Container Registry
 
