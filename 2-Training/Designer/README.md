@@ -15,4 +15,4 @@ Click 'Run' at the bottom. Choose the compute target you had created earlier.
 Once you ran the experiment, you can inspect the outputs of the individual steps -- check out the output of the different steps, in particular the last one ('Visualize')
 ![](visualize.png)
 
-**Optional Task:** Create and run an experiment that trains a model to predict attrition using the IBM Attrition Dataset you had uploaded earlier.
+
