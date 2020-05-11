@@ -49,3 +49,22 @@ Click on 'Create dataset' and choose 'From web files'. Copy/Paste the above URL 
 
 
 For more information on datasets, see the how-to for more information on creating and using Datasets. https://docs.microsoft.com/en-us/azure/machine-learning/service/how-to-create-register-datasets
+
+## [Optional] - creating a datastore
+
+In case data, residing in an Azure Storage, is being loaded into Azure Machine Learning one should create a datastore first.
+For this it is important to have an Azure storage account with an Azure blob container or Azure file share. Link to create an Azure storage account: https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-create-account-block-blob?tabs=azure-portal
+
+1. Click 'Datastores' on the left pane under Manage.
+![Data store](datastore_creation.png)
+
+2. Click create 'New datastore'.
+
+![New data store](new_datastore.png)
+
+3. Fill in the form for a new datastore. 
+
+Information regarding the SAS token can be found in Access keys on the settings pane. For service principals navigate to App registrations and select the designated app.
+
+For more information on how to access data please check the following link: https://github.com/microsoft/azure-docs/blob/master/articles/machine-learning/how-to-access-data.md
+
