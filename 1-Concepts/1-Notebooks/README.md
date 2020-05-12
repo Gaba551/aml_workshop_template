@@ -6,10 +6,14 @@ For the following parts of the workshop, you are going to work on the compute in
 ![Compute notebook](computes_view.png)
 
 
-2. For this workshop navigate to the Notebooks within Azure Machine Learning UI. Which can be found on the left pane with the notebook icon.
+2. After going through authentication, you will see the JupyterLab frontend. As you authenticate, make sure to use the same user to log in as was used to create the Compute Instance, or else your access will be denied. Next open an Terminal (either by File -> New -> Terminal, or by just clicking on Terminal in the Launcher Window).
 
 ![notebook](notebook.png)
 
-3. The easiest way to get these folders onto a compute instance in the portal is to upload the repo as a zip file and run ```!unzip solution-accelerator-many-models.zip``` in a Jupyter Notebook or in the terminal.
+3. In the terminal window clone this repository by typing:
 
+git clone https://github.com/csiebler/azureml-workshop-2020
+
+
+![jupyter](clone_jupyter.png)
 
