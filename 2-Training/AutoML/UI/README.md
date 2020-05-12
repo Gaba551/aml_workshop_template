@@ -24,6 +24,19 @@ Follow the instructions in the [documentation](https://docs.microsoft.com/en-us/
 
 1. Open “**Advanced settings**”, set the 'Primary metric' to 'AUC_weighted' and training job time to 15 minutes (for the workshop).
 
+![additional_configurations](additional_configurations.png).
+
+Background information on additional configurations
+•	**Primary metric**: Evaluation metric that the machine learning algorithm will be measured by.
+•	**Automatic featurization**: Enables preprocessing. This includes automatic data cleansing, preparing, and transformation to generate synthetic features.
+•	**Blocked algorithms**: Algorithms you want to exclude from the training job
+•	**Exit criterion**: If a criteria is met, the training job is stopped.
+•	**Validation**: Choose a cross-validation type and number of tests.
+•	**Concurrency**: The maximum number of parallel iterations executed per iteration
+
+Good to know: Preparation takes **10-15 minutes** to prepare the experiment run. Once running, it takes **2-3 minutes more for each iteration.**
+Select **Refresh** periodically to see the status of the run as the experiment progresses.
+
 1. Hit "**Start**" and wait for the training job to start. You’ll be able to see the models which are created during the run, click on any of the models to open the detailed view of that model, where you can analyze the [graphs and metrics](https://docs.microsoft.com/en-us/azure/machine-learning/service/how-to-understand-automated-ml).
 
 1. Once the run is completed, click **deploy the best model** to create a deployed endpoint from the model.

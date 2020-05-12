@@ -1,6 +1,6 @@
 # Compute in Azure Machine Learning
 
-![Compute_overview](compute_overview.png)
+![Compute_overview](Compute_overview.png)
 
 AML offers a wide range of compute:
 
