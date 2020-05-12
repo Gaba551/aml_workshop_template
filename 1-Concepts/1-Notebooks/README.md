@@ -1,14 +1,15 @@
 # Clone git Repository to Workspace storage
 
-For the following parts of the workshop, you are going to work on the Notebook VM you [earlier](1-setup-compute.md). For that, you will need to clone this git repository onto the workspace.
+For the following parts of the workshop, you are going to work on the compute instance you created earlier [earlier](1-setup-compute.md). For that, you will need to clone this git repository onto the workspace.
 
-1. To get started, first navigate to the JupyterLab instance running on the Notebook VM by clicking on the JupyterLab link shown below:
-![](computes_view.png)
+1. To get started, there are a few possibilities: using the applications such as JupyterLab, Jupyter, Rstudio or use the notebook functionality within Azure Machine Learning. Make sure the status of your compute instance is **running**.
+![Compute notebook](computes_view.png)
 
-1. After going through authentication, you will see the JupyterLab frontend. As you authenticate, make sure to use the same user to log in as was used to create the Notebook VM, or else your access will be denied. Next open an Terminal (either by File/New/Terminal, or by just clicking on Terminal in the Launcher Window).
-![](terminal.png)
 
-1. In the terminal window clone this repository by typing:
-```
-        git clone https://github.com/danielsc/azureml-workshop-2019
-```
+2. For this workshop navigate to the Notebooks within Azure Machine Learning UI. Which can be found on the left pane with the notebook icon.
+
+![notebook](notebook.png)
+
+3. The easiest way to get these folders onto a compute instance in the portal is to upload the repo as a zip file and run ```!unzip solution-accelerator-many-models.zip``` in a Jupyter Notebook or in the terminal.
+
+
