@@ -11,7 +11,7 @@ For this workshop, all you need is access to an [Azure subscription](https://azu
 
 This workshop consists of three sessions of three hours per session:
 
-Session 1:
+**Session 1:**
 
 - Setting up AML workspace
 
@@ -25,7 +25,7 @@ Session 1:
 
 - Create an experiment in the designer interface
 
-Session 2:
+**Session 2:**
 
 - AML, training & hyperdrive
 
@@ -33,7 +33,7 @@ Session 2:
 
 - AutoML & training
 
-Session 3:
+**Session 3:**
 
 - MLOps
 
