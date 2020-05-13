@@ -17,3 +17,15 @@ git clone https://github.com/csiebler/azureml-workshop-2020
 
 ![jupyter](clone_jupyter.png)
 
+** Please note: make sure you are in the right folder in order for you to see it in the Azure Machine Learning notebook**
+
+# Second option - upload the github repo in AML notebook
+
+1. Download the repo in a zip file. Unzip it locally.
+
+![clone_github](clone_github.png)
+
+2. Upload the folder in the Azure Machine Learning notebook.
+
+![notebook_upload](notebook_upload.png)
+
